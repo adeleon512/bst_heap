@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Adam/CLionProjects/bst_heap/bst_3358.h
+iostream
+-
+cassert
+-
+assert.h
+-
+
+C:/Users/Adam/CLionProjects/bst_heap/heap_3358.h
+cassert
+-
+math.h
+-
+algorithm
+-
+iostream
+-
+
+C:/Users/Adam/CLionProjects/bst_heap/main.cpp
+heap_3358.h
+C:/Users/Adam/CLionProjects/bst_heap/heap_3358.h
+bst_3358.h
+C:/Users/Adam/CLionProjects/bst_heap/bst_3358.h
+iostream
+-
+
